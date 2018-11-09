@@ -1,0 +1,1395 @@
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+sh: 1: ./bin/www: Permission denied
+npm ERR! code ELIFECYCLE
+npm ERR! errno 126
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 126
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/jarettrsdunn/.npm/_logs/2018-11-09T20_08_15_242Z-debug.log
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+url.js:152
+    throw new ERR_INVALID_ARG_TYPE('url', 'string', url);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received type undefined
+    at Url.parse (url.js:152:11)
+    at Object.urlParse [as parse] (url.js:146:13)
+    at new Sequelize (/home/jarettrsdunn/steemconnect/node_modules/sequelize/lib/sequelize.js:115:28)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/db/models/index.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/app.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/bin/www:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/jarettrsdunn/.npm/_logs/2018-11-09T20_08_48_504Z-debug.log
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+url.js:152
+    throw new ERR_INVALID_ARG_TYPE('url', 'string', url);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received type undefined
+    at Url.parse (url.js:152:11)
+    at Object.urlParse [as parse] (url.js:146:13)
+    at new Sequelize (/home/jarettrsdunn/steemconnect/node_modules/sequelize/lib/sequelize.js:115:28)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/db/models/index.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/app.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/bin/www:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+/home/jarettrsdunn/steemconnect/node_modules/sequelize/lib/sequelize.js:117
+      options.dialect = urlParts.protocol.replace(/:$/, '');
+                                          ^
+
+TypeError: Cannot read property 'replace' of null
+    at new Sequelize (/home/jarettrsdunn/steemconnect/node_modules/sequelize/lib/sequelize.js:117:43)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/db/models/index.js:9:19)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/app.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/jarettrsdunn/steemconnect/bin/www:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:707:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+    at Module.load (internal/modules/cjs/loader.js:605:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"level":30,"msg":"running in development mode","time":"2018-11-09T20:15:47.865Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:15:48.270Z","v":0}
+webpack built ae54ab4db890568594c3 in 14431ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14431[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"req_id":"dev-3646055677043619","ip":"::ffff:24.89.216.167","level":30,"ms":25.754379,"code":200,"msg":"GET /","time":"2018-11-09T20:20:59.645Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"req_id":"dev-3646055677043619","ip":"::ffff:24.89.216.167","level":30,"ms":26.396255,"code":200,"msg":"GET /","time":"2018-11-09T20:20:59.645Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"req_id":"dev-4071536083480655","ip":"::ffff:24.89.216.167","level":30,"ms":3.952324,"code":304,"msg":"GET /","time":"2018-11-09T20:23:39.933Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17376,"req_id":"dev-4071536083480655","ip":"::ffff:24.89.216.167","level":30,"ms":4.180693,"code":304,"msg":"GET /","time":"2018-11-09T20:23:39.933Z","v":0}
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17706,"level":30,"msg":"running in development mode","time":"2018-11-09T20:25:19.716Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17706,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:25:20.113Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17706,"req_id":"dev-6109901001135285","ip":"::ffff:24.89.216.167","level":30,"ms":305.755557,"code":304,"msg":"GET /","time":"2018-11-09T20:25:23.976Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17706,"req_id":"dev-6109901001135285","ip":"::ffff:24.89.216.167","level":30,"ms":306.257419,"code":304,"msg":"GET /","time":"2018-11-09T20:25:23.976Z","v":0}
+webpack built ae54ab4db890568594c3 in 14222ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14222[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17792,"level":30,"msg":"running in development mode","time":"2018-11-09T20:28:44.275Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17792,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:28:44.684Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17792,"req_id":"dev-2745728494862879","ip":"::ffff:24.89.216.167","level":30,"ms":61.614291,"code":304,"msg":"GET /","time":"2018-11-09T20:28:48.346Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17792,"req_id":"dev-2745728494862879","ip":"::ffff:24.89.216.167","level":30,"ms":62.132376,"code":304,"msg":"GET /","time":"2018-11-09T20:28:48.347Z","v":0}
+webpack built ae54ab4db890568594c3 in 14398ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14398[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17824,"level":30,"msg":"running in development mode","time":"2018-11-09T20:29:40.916Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17824,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:29:41.317Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17824,"req_id":"dev-3317047937394203","ip":"::ffff:24.89.216.167","level":30,"ms":182.73049,"code":304,"msg":"GET /","time":"2018-11-09T20:29:42.137Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17824,"req_id":"dev-3317047937394203","ip":"::ffff:24.89.216.167","level":30,"ms":183.209627,"code":304,"msg":"GET /","time":"2018-11-09T20:29:42.137Z","v":0}
+webpack built ae54ab4db890568594c3 in 14551ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14551[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17877,"level":30,"msg":"running in development mode","time":"2018-11-09T20:31:29.511Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17877,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:31:29.902Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17877,"req_id":"dev-3984063938676113","ip":"::ffff:24.89.216.167","level":30,"ms":416.529659,"code":304,"msg":"GET /","time":"2018-11-09T20:31:30.545Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17877,"req_id":"dev-3984063938676113","ip":"::ffff:24.89.216.167","level":30,"ms":417.106861,"code":304,"msg":"GET /","time":"2018-11-09T20:31:30.546Z","v":0}
+webpack built ae54ab4db890568594c3 in 14293ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14293[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17912,"level":30,"msg":"running in development mode","time":"2018-11-09T20:32:22.016Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17912,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:32:22.461Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17912,"req_id":"dev-1678028057187935","ip":"::ffff:24.89.216.167","level":30,"ms":100.322072,"code":304,"msg":"GET /","time":"2018-11-09T20:32:26.113Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17912,"req_id":"dev-1678028057187935","ip":"::ffff:24.89.216.167","level":30,"ms":100.866352,"code":304,"msg":"GET /","time":"2018-11-09T20:32:26.114Z","v":0}
+webpack built ae54ab4db890568594c3 in 14232ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14232[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":17970,"level":30,"msg":"running in development mode","time":"2018-11-09T20:33:41.028Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17970,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:33:41.452Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17970,"req_id":"dev-1436509530484215","ip":"::ffff:24.89.216.167","level":30,"ms":415.461973,"code":304,"msg":"GET /","time":"2018-11-09T20:33:42.098Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":17970,"req_id":"dev-1436509530484215","ip":"::ffff:24.89.216.167","level":30,"ms":415.93226,"code":304,"msg":"GET /","time":"2018-11-09T20:33:42.098Z","v":0}
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"level":30,"msg":"running in development mode","time":"2018-11-09T20:35:16.384Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T20:35:16.784Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-7943568409203699","ip":"::ffff:24.89.216.167","level":30,"ms":789.575519,"code":200,"msg":"GET /","time":"2018-11-09T20:35:21.928Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-7943568409203699","ip":"::ffff:24.89.216.167","level":30,"ms":791.005975,"code":200,"msg":"GET /","time":"2018-11-09T20:35:21.928Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-6398317503281157","ip":"::ffff:24.89.216.167","level":30,"ms":1033.725816,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T20:35:23.155Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-6398317503281157","ip":"::ffff:24.89.216.167","level":30,"ms":1034.518523,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T20:35:23.156Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-183344841042411","ip":"::ffff:24.89.216.167","level":30,"ms":51.096271,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T20:35:23.777Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-183344841042411","ip":"::ffff:24.89.216.167","level":30,"ms":51.431035,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T20:35:23.778Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-8728832929197555","ip":"::ffff:24.89.216.167","level":30,"ms":253.685418,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T20:35:24.020Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":18080,"req_id":"dev-8728832929197555","ip":"::ffff:24.89.216.167","level":30,"ms":253.906395,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T20:35:24.021Z","v":0}
+webpack built ae54ab4db890568594c3 in 14422ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14422[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"level":30,"msg":"running in development mode","time":"2018-11-09T22:15:06.031Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T22:15:06.442Z","v":0}
+webpack built 465a741669f3e33a5f9b in 14301ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14301[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-8931237627977501","ip":"::ffff:1.54.8.252","level":30,"ms":17.774549,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:15:37.529Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-8931237627977501","ip":"::ffff:1.54.8.252","level":30,"ms":18.311075,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:15:37.530Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-8683206764454811","ip":"::ffff:1.54.8.252","level":30,"ms":22.631384,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:15:37.956Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-8683206764454811","ip":"::ffff:1.54.8.252","level":30,"ms":22.818076,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:15:37.957Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4310279525138231","ip":"::ffff:1.54.8.252","level":30,"ms":814.926246,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:15:38.560Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4310279525138231","ip":"::ffff:1.54.8.252","level":30,"ms":815.894351,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:15:38.561Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-5320686894604371","ip":"::ffff:1.54.8.252","level":30,"ms":2.310843,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:15:55.907Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-5320686894604371","ip":"::ffff:1.54.8.252","level":30,"ms":2.572953,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:15:55.907Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-2967864933393923","ip":"::ffff:1.54.8.252","level":30,"ms":1.510583,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:15:56.099Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-2967864933393923","ip":"::ffff:1.54.8.252","level":30,"ms":1.696961,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:15:56.099Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-610913205040311","ip":"::ffff:1.54.8.252","level":30,"ms":1.203948,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:15:56.430Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-610913205040311","ip":"::ffff:1.54.8.252","level":30,"ms":1.377762,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:15:56.430Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4700699835459341","ip":"::ffff:1.54.8.252","level":30,"ms":411.137805,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:15:56.508Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4700699835459341","ip":"::ffff:1.54.8.252","level":30,"ms":411.404825,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:15:56.508Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-2809775455216809","ip":"::ffff:1.54.8.252","level":30,"ms":1.768047,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:15:56.515Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-2809775455216809","ip":"::ffff:1.54.8.252","level":30,"ms":1.953924,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:15:56.515Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-6179823286405495","ip":"::ffff:1.54.8.252","level":30,"ms":1.564394,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:15:57.041Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-6179823286405495","ip":"::ffff:1.54.8.252","level":30,"ms":1.844893,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:15:57.041Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 465a741669f3e33a5f9b in 966ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m966[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+webpack built 465a741669f3e33a5f9b in 1845ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m1845[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4974255376072407","ip":"::ffff:1.54.8.252","level":30,"ms":27641.240535,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:16:24.089Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22160,"req_id":"dev-4974255376072407","ip":"::ffff:1.54.8.252","level":30,"ms":27641.891165,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:16:24.089Z","v":0}
+webpack built 465a741669f3e33a5f9b in 4473ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m4473[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"level":30,"msg":"running in development mode","time":"2018-11-09T22:16:33.503Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T22:16:33.908Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5173192655763883","ip":"::ffff:24.89.216.167","level":30,"ms":437.970541,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:16:38.282Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5173192655763883","ip":"::ffff:24.89.216.167","level":30,"ms":438.461668,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:16:38.282Z","v":0}
+webpack: wait until bundle finished: /js/app.min.js
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4577204687816791","ip":"::ffff:24.89.216.167","level":30,"ms":500.397126,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:16:39.413Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4577204687816791","ip":"::ffff:24.89.216.167","level":30,"ms":501.604147,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:16:39.414Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7153831486894405","ip":"::ffff:24.89.216.167","level":30,"ms":61.88147,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:16:41.450Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7153831486894405","ip":"::ffff:24.89.216.167","level":30,"ms":62.336788,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:16:41.450Z","v":0}
+webpack built eb78acb78c48517307a5 in 14327ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14327[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-627495673938103","ip":"::ffff:24.89.216.167","level":30,"ms":9364.160061,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:16:48.289Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-627495673938103","ip":"::ffff:24.89.216.167","level":30,"ms":9364.420096,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:16:48.289Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-8578905814742517","ip":"::ffff:24.89.216.167","level":30,"ms":1.842201,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:16:53.847Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-8578905814742517","ip":"::ffff:24.89.216.167","level":30,"ms":2.124765,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:16:53.847Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3530530859212569","ip":"::ffff:24.89.216.167","level":30,"ms":1.68411,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:16:53.852Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3530530859212569","ip":"::ffff:24.89.216.167","level":30,"ms":1.81657,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:16:53.852Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3915246515856433","ip":"::ffff:24.89.216.167","level":30,"ms":14504.954121,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:17:06.509Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3915246515856433","ip":"::ffff:24.89.216.167","level":30,"ms":14505.23923,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:17:06.509Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6469384748194411","ip":"::ffff:24.89.216.167","level":30,"ms":13474.047126,"code":200,"msg":"POST /api/me","time":"2018-11-09T22:17:06.517Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4208972361504585","ip":"::ffff:24.89.216.167","level":30,"ms":4.608464,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:17:06.637Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4208972361504585","ip":"::ffff:24.89.216.167","level":30,"ms":4.802139,"code":200,"msg":"GET /apps/create","time":"2018-11-09T22:17:06.637Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4195830480038705","ip":"::ffff:24.89.216.167","level":30,"ms":1.497332,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:06.640Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4195830480038705","ip":"::ffff:24.89.216.167","level":30,"ms":1.621702,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:06.640Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5147972851273485","ip":"::ffff:24.89.216.167","level":30,"ms":1.413798,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:06.640Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5147972851273485","ip":"::ffff:24.89.216.167","level":30,"ms":1.50528,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:06.640Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4521484793960083","ip":"::ffff:24.89.216.167","level":30,"ms":22.349437,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:06.820Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4521484793960083","ip":"::ffff:24.89.216.167","level":30,"ms":22.537384,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:06.820Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-8478941666556215","ip":"::ffff:24.89.216.167","level":30,"ms":340.135831,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:17:07.137Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-8478941666556215","ip":"::ffff:24.89.216.167","level":30,"ms":340.409485,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:17:07.137Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-694793104044433","ip":"::ffff:24.89.216.167","level":30,"ms":1.331536,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:08.860Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-694793104044433","ip":"::ffff:24.89.216.167","level":30,"ms":1.501276,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:08.860Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-715268181597033","ip":"::ffff:24.89.216.167","level":30,"ms":1.429164,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:17:13.903Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-715268181597033","ip":"::ffff:24.89.216.167","level":30,"ms":1.624796,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:17:13.903Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6424771634410575","ip":"::ffff:24.89.216.167","level":30,"ms":1.710463,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:17:13.905Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6424771634410575","ip":"::ffff:24.89.216.167","level":30,"ms":1.861722,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:17:13.905Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4422240549653769","ip":"::ffff:24.89.216.167","level":30,"ms":4624.011894,"code":200,"msg":"POST /api/me","time":"2018-11-09T22:17:17.894Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-98027756805203","ip":"::ffff:24.89.216.167","level":30,"ms":5496.557099,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:17:17.899Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-98027756805203","ip":"::ffff:24.89.216.167","level":30,"ms":5496.802261,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T22:17:17.900Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7146148756526473","ip":"::ffff:24.89.216.167","level":30,"ms":4.19161,"code":304,"msg":"GET /","time":"2018-11-09T22:17:17.939Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7146148756526473","ip":"::ffff:24.89.216.167","level":30,"ms":4.357472,"code":304,"msg":"GET /","time":"2018-11-09T22:17:17.939Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-799774473497557","ip":"::ffff:24.89.216.167","level":30,"ms":1.847454,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:17.956Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-799774473497557","ip":"::ffff:24.89.216.167","level":30,"ms":2.144447,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:17.956Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-917576619328585","ip":"::ffff:24.89.216.167","level":30,"ms":1.130201,"code":304,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:18.036Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-917576619328585","ip":"::ffff:24.89.216.167","level":30,"ms":1.289238,"code":304,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:18.036Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7144225772555009","ip":"::ffff:24.89.216.167","level":30,"ms":0.854529,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T22:17:18.068Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7144225772555009","ip":"::ffff:24.89.216.167","level":30,"ms":1.019446,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T22:17:18.068Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1740443695060383","ip":"::ffff:24.89.216.167","level":30,"ms":21.638417,"code":304,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:18.155Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1740443695060383","ip":"::ffff:24.89.216.167","level":30,"ms":21.850108,"code":304,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:18.155Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7394457348273935","ip":"::ffff:24.89.216.167","level":30,"ms":1.48081,"code":200,"msg":"GET /img/macbook.png","time":"2018-11-09T22:17:19.349Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7394457348273935","ip":"::ffff:24.89.216.167","level":30,"ms":1.670155,"code":200,"msg":"GET /img/macbook.png","time":"2018-11-09T22:17:19.349Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5322696889218555","ip":"::ffff:24.89.216.167","level":30,"ms":1.681338,"code":200,"msg":"GET /img/logo-white.svg","time":"2018-11-09T22:17:19.512Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5322696889218555","ip":"::ffff:24.89.216.167","level":30,"ms":1.855021,"code":200,"msg":"GET /img/logo-white.svg","time":"2018-11-09T22:17:19.512Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4473698983365779","ip":"::ffff:24.89.216.167","level":30,"ms":1.015691,"code":200,"msg":"GET /img/apps.svg","time":"2018-11-09T22:17:19.516Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4473698983365779","ip":"::ffff:24.89.216.167","level":30,"ms":1.248153,"code":200,"msg":"GET /img/apps.svg","time":"2018-11-09T22:17:19.516Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5013265284932861","ip":"::ffff:24.89.216.167","level":30,"ms":1.159895,"code":200,"msg":"GET /img/account.svg","time":"2018-11-09T22:17:19.614Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5013265284932861","ip":"::ffff:24.89.216.167","level":30,"ms":1.353178,"code":200,"msg":"GET /img/account.svg","time":"2018-11-09T22:17:19.614Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7304105412032921","ip":"::ffff:24.89.216.167","level":30,"ms":1.172354,"code":200,"msg":"GET /img/lock.svg","time":"2018-11-09T22:17:19.652Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7304105412032921","ip":"::ffff:24.89.216.167","level":30,"ms":1.406742,"code":200,"msg":"GET /img/lock.svg","time":"2018-11-09T22:17:19.652Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1435027737773241","ip":"::ffff:24.89.216.167","level":30,"ms":1.047394,"code":200,"msg":"GET /img/wallet.svg","time":"2018-11-09T22:17:19.716Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1435027737773241","ip":"::ffff:24.89.216.167","level":30,"ms":1.198978,"code":200,"msg":"GET /img/wallet.svg","time":"2018-11-09T22:17:19.716Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-396032688717775","ip":"::ffff:24.89.216.167","level":30,"ms":0.945491,"code":200,"msg":"GET /img/opensource.svg","time":"2018-11-09T22:17:19.724Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-396032688717775","ip":"::ffff:24.89.216.167","level":30,"ms":1.107105,"code":200,"msg":"GET /img/opensource.svg","time":"2018-11-09T22:17:19.724Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7200026426732801","ip":"::ffff:24.89.216.167","level":30,"ms":1.200093,"code":200,"msg":"GET /img/code.svg","time":"2018-11-09T22:17:19.761Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7200026426732801","ip":"::ffff:24.89.216.167","level":30,"ms":1.375493,"code":200,"msg":"GET /img/code.svg","time":"2018-11-09T22:17:19.761Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7299686720388833","ip":"::ffff:24.89.216.167","level":30,"ms":310.44215,"code":200,"msg":"GET /img/hero.svg","time":"2018-11-09T22:17:19.821Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7299686720388833","ip":"::ffff:24.89.216.167","level":30,"ms":310.718499,"code":200,"msg":"GET /img/hero.svg","time":"2018-11-09T22:17:19.821Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-242314815511191","ip":"::ffff:24.89.216.167","level":30,"ms":0.972319,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:20.962Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-242314815511191","ip":"::ffff:24.89.216.167","level":30,"ms":1.154079,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:20.962Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1839307976080615","ip":"::ffff:24.89.216.167","level":30,"ms":2.827972,"code":200,"msg":"GET /","time":"2018-11-09T22:17:38.309Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1839307976080615","ip":"::ffff:24.89.216.167","level":30,"ms":2.992562,"code":200,"msg":"GET /","time":"2018-11-09T22:17:38.310Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4344327087371093","ip":"::ffff:24.89.216.167","level":30,"ms":21.767517,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:38.648Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4344327087371093","ip":"::ffff:24.89.216.167","level":30,"ms":21.947191,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:17:38.649Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7032168641119077","ip":"::ffff:24.89.216.167","level":30,"ms":304.337514,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:17:38.831Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7032168641119077","ip":"::ffff:24.89.216.167","level":30,"ms":304.53148,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:17:38.831Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5576457839691095","ip":"::ffff:24.89.216.167","level":30,"ms":1.178966,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:17:39.433Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5576457839691095","ip":"::ffff:24.89.216.167","level":30,"ms":1.348569,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:17:39.434Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1814350052545203","ip":"::ffff:24.89.216.167","level":30,"ms":1.576821,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:17:44.812Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1814350052545203","ip":"::ffff:24.89.216.167","level":30,"ms":1.760194,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:17:44.812Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7384807835856511","ip":"::ffff:24.89.216.167","level":30,"ms":1.594948,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:17:44.911Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7384807835856511","ip":"::ffff:24.89.216.167","level":30,"ms":1.76029,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:17:44.911Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-2703071701363151","ip":"::ffff:24.89.216.167","level":30,"ms":1.736579,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:44.916Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-2703071701363151","ip":"::ffff:24.89.216.167","level":30,"ms":1.883111,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:17:44.916Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7399351714956717","ip":"::ffff:24.89.216.167","level":30,"ms":1.649416,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:17:44.917Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7399351714956717","ip":"::ffff:24.89.216.167","level":30,"ms":1.752667,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:17:44.917Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7724805061926579","ip":"::ffff:24.89.216.167","level":30,"ms":1.608774,"code":200,"msg":"GET /img/wallet.svg","time":"2018-11-09T22:17:45.272Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7724805061926579","ip":"::ffff:24.89.216.167","level":30,"ms":1.777271,"code":200,"msg":"GET /img/wallet.svg","time":"2018-11-09T22:17:45.273Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6881086019006911","ip":"::ffff:24.89.216.167","level":30,"ms":1.442876,"code":200,"msg":"GET /img/apps.svg","time":"2018-11-09T22:17:45.273Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6881086019006911","ip":"::ffff:24.89.216.167","level":30,"ms":1.569233,"code":200,"msg":"GET /img/apps.svg","time":"2018-11-09T22:17:45.273Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6815851974334891","ip":"::ffff:24.89.216.167","level":30,"ms":1.149093,"code":200,"msg":"GET /img/account.svg","time":"2018-11-09T22:17:45.282Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6815851974334891","ip":"::ffff:24.89.216.167","level":30,"ms":1.347583,"code":200,"msg":"GET /img/account.svg","time":"2018-11-09T22:17:45.282Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7564988749888187","ip":"::ffff:24.89.216.167","level":30,"ms":1.563831,"code":200,"msg":"GET /img/lock.svg","time":"2018-11-09T22:17:45.379Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7564988749888187","ip":"::ffff:24.89.216.167","level":30,"ms":1.743103,"code":200,"msg":"GET /img/lock.svg","time":"2018-11-09T22:17:45.380Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5976898881463757","ip":"::ffff:24.89.216.167","level":30,"ms":1.462697,"code":200,"msg":"GET /img/code.svg","time":"2018-11-09T22:17:45.380Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5976898881463757","ip":"::ffff:24.89.216.167","level":30,"ms":1.598421,"code":200,"msg":"GET /img/code.svg","time":"2018-11-09T22:17:45.380Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5430863459921521","ip":"::ffff:24.89.216.167","level":30,"ms":112.319367,"code":200,"msg":"GET /img/hero.svg","time":"2018-11-09T22:17:45.389Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-5430863459921521","ip":"::ffff:24.89.216.167","level":30,"ms":112.496953,"code":200,"msg":"GET /img/hero.svg","time":"2018-11-09T22:17:45.390Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1784704093753579","ip":"::ffff:24.89.216.167","level":30,"ms":1.669898,"code":200,"msg":"GET /img/logo-white.svg","time":"2018-11-09T22:17:45.426Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-1784704093753579","ip":"::ffff:24.89.216.167","level":30,"ms":1.82902,"code":200,"msg":"GET /img/logo-white.svg","time":"2018-11-09T22:17:45.426Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3064217192248979","ip":"::ffff:24.89.216.167","level":30,"ms":1.65308,"code":200,"msg":"GET /img/opensource.svg","time":"2018-11-09T22:17:45.427Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3064217192248979","ip":"::ffff:24.89.216.167","level":30,"ms":1.791792,"code":200,"msg":"GET /img/opensource.svg","time":"2018-11-09T22:17:45.427Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6486557678615381","ip":"::ffff:24.89.216.167","level":30,"ms":1.386195,"code":200,"msg":"GET /img/macbook.png","time":"2018-11-09T22:17:45.482Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6486557678615381","ip":"::ffff:24.89.216.167","level":30,"ms":1.585956,"code":200,"msg":"GET /img/macbook.png","time":"2018-11-09T22:17:45.482Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4027240575709921","ip":"::ffff:24.89.216.167","level":30,"ms":1.413659,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:45.838Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-4027240575709921","ip":"::ffff:24.89.216.167","level":30,"ms":1.628365,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:45.838Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6669913201239725","ip":"::ffff:24.89.216.167","level":30,"ms":2.895626,"code":200,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:17:46.067Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-6669913201239725","ip":"::ffff:24.89.216.167","level":30,"ms":3.060677,"code":200,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:17:46.067Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3333292971988007","ip":"::ffff:24.89.216.167","level":30,"ms":1.489017,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:50.592Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-3333292971988007","ip":"::ffff:24.89.216.167","level":30,"ms":1.665589,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:17:50.592Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-766928906846489","ip":"::ffff:24.89.216.167","level":30,"ms":0.836391,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:50.690Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-766928906846489","ip":"::ffff:24.89.216.167","level":30,"ms":1.000237,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:50.691Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7570792404958123","ip":"::ffff:24.89.216.167","level":30,"ms":0.878105,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:50.802Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22259,"req_id":"dev-7570792404958123","ip":"::ffff:24.89.216.167","level":30,"ms":1.075368,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:17:50.802Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built eb78acb78c48517307a5 in 916ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m916[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+webpack built eb78acb78c48517307a5 in 2105ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m2105[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+webpack built eb78acb78c48517307a5 in 4249ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m4249[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[39m[22m[1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack building...
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"level":30,"msg":"running in development mode","time":"2018-11-09T22:19:28.475Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T22:19:28.894Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6179819691800271","ip":"::ffff:24.89.216.167","level":30,"ms":154.622646,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:19:29.688Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6179819691800271","ip":"::ffff:24.89.216.167","level":30,"ms":155.741533,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:19:29.689Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-4473088425929839","ip":"::ffff:24.89.216.167","level":30,"ms":174.115524,"code":304,"msg":"GET /login","time":"2018-11-09T22:19:29.703Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-4473088425929839","ip":"::ffff:24.89.216.167","level":30,"ms":174.321704,"code":304,"msg":"GET /login","time":"2018-11-09T22:19:29.704Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-2371867804068611","ip":"::ffff:24.89.216.167","level":30,"ms":14.662624,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T22:19:29.915Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-2371867804068611","ip":"::ffff:24.89.216.167","level":30,"ms":14.832545,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T22:19:29.915Z","v":0}
+webpack: wait until bundle finished: /js/app.min.js
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3675463252909293","ip":"::ffff:24.89.216.167","level":30,"ms":10.296107,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T22:19:32.503Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3675463252909293","ip":"::ffff:24.89.216.167","level":30,"ms":10.506065,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T22:19:32.503Z","v":0}
+webpack built 253ec39043885bf1e314 in 14527ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14527[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3190113969611277","ip":"::ffff:24.89.216.167","level":30,"ms":11982.585787,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:19:43.486Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3190113969611277","ip":"::ffff:24.89.216.167","level":30,"ms":11983.055793,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:19:43.486Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3875589115377349","ip":"::ffff:24.89.216.167","level":30,"ms":4.394694,"code":200,"msg":"GET /js/5c64e94c10e7bcf930e5.hot-update.json","time":"2018-11-09T22:19:45.888Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3875589115377349","ip":"::ffff:24.89.216.167","level":30,"ms":4.550697,"code":200,"msg":"GET /js/5c64e94c10e7bcf930e5.hot-update.json","time":"2018-11-09T22:19:45.888Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-649283231500809","ip":"::ffff:24.89.216.167","level":30,"ms":0.979516,"code":304,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:19:49.282Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-649283231500809","ip":"::ffff:24.89.216.167","level":30,"ms":1.145583,"code":304,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:19:49.283Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6685872429074567","ip":"::ffff:24.89.216.167","level":30,"ms":0.684395,"code":304,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:19:49.378Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6685872429074567","ip":"::ffff:24.89.216.167","level":30,"ms":0.809031,"code":304,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:19:49.379Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-7297087574738647","ip":"::ffff:24.89.216.167","level":30,"ms":0.977786,"code":304,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:19:49.385Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-7297087574738647","ip":"::ffff:24.89.216.167","level":30,"ms":1.097223,"code":304,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:19:49.385Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-4991490163503065","ip":"::ffff:24.89.216.167","level":30,"ms":0.788511,"code":304,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:19:49.385Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-4991490163503065","ip":"::ffff:24.89.216.167","level":30,"ms":0.855287,"code":304,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:19:49.385Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3251994185067333","ip":"::ffff:24.89.216.167","level":30,"ms":0.418007,"code":304,"msg":"GET /img/logo.svg","time":"2018-11-09T22:19:49.386Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-3251994185067333","ip":"::ffff:24.89.216.167","level":30,"ms":0.499067,"code":304,"msg":"GET /img/logo.svg","time":"2018-11-09T22:19:49.386Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6220501377568983","ip":"::ffff:24.89.216.167","level":30,"ms":0.756255,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:19:49.510Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-6220501377568983","ip":"::ffff:24.89.216.167","level":30,"ms":0.878506,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:19:49.511Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-7454653941729389","ip":"::ffff:24.89.216.167","level":30,"ms":3.00964,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:19:49.694Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22325,"req_id":"dev-7454653941729389","ip":"::ffff:24.89.216.167","level":30,"ms":3.133016,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:19:49.694Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 9a44655074c7d88482c5 in 1213ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m1213[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+                          [1m[32mapp.min.js[39m[22m   15.1 MB       [1m0[39m[22m  [1m[32m[39m[22mmain
+[1m[32m0.253ec39043885bf1e314.hot-update.js[39m[22m    155 kB       [1m0[39m[22m  [1m[32m[39m[22mmain
+[1m[32m253ec39043885bf1e314.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[39m[22m
+
+[1m[31mERROR in ./node_modules/inherits/inherits_browser.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/inherits/inherits_browser.js'
+ @ ./node_modules/create-hash/browser.js 2:15-34
+ @ ./node_modules/@whaleshares/wlsjs/lib/auth/ecc/src/hash.js
+ @ ./node_modules/@whaleshares/wlsjs/lib/auth/ecc/index.js
+ @ ./src/utils/auth.js
+ @ ./src/components/Apps/App.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/intl-messageformat/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/intl-messageformat/index.js'
+ @ ./node_modules/react-intl/lib/index.es.js 8:0-51
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/parse-asn1/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/parse-asn1/index.js'
+ @ ./node_modules/browserify-sign/browser/sign.js 6:16-37
+ @ ./node_modules/browserify-sign/browser/index.js
+ @ ./node_modules/crypto-browserify/index.js
+ @ ./node_modules/jwa/index.js
+ @ ./node_modules/jws/lib/sign-stream.js
+ @ ./node_modules/jws/index.js
+ @ ./node_modules/jsonwebtoken/verify.js
+ @ ./node_modules/jsonwebtoken/index.js
+ @ ./src/components/Auth/Authorize.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+webpack: Failed to compile.
+webpack: Compiling...
+webpack building...
+webpack built 76481345a427baddaefd in 85ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m85[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+                          [1m[32mapp.min.js[39m[22m   1.51 MB       [1m0[39m[22m  [1m[32m[39m[22mmain
+[1m[32m0.253ec39043885bf1e314.hot-update.js[39m[22m     55 kB       [1m0[39m[22m  [1m[32m[39m[22mmain
+[1m[32m253ec39043885bf1e314.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[39m[22m
+
+[1m[31mERROR in ENOENT: no such file or directory, scandir '/home/jarettrsdunn/steemconnect/node_modules/react-intl/locale-data'
+ @ ./src/utils/locales.js
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/css-loader?sourceMap?importLoaders=1!./node_modules/postcss-loader/lib?browsers=last 2 version!./node_modules/less-loader/dist/cjs.js!./src/styles/common.less
+Module build failed: 
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~antd/dist/antd.less";
+^
+ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/dist/antd.less'
+      in /home/jarettrsdunn/steemconnect/src/styles/common.less (line 2, column 0)
+ @ ./src/styles/common.less 4:14-219 13:2-17:4 14:20-225
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/lib/api/methods.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/lib/api/methods.js'
+ @ ./src/components/Docs/Steemjs.js 21:15-60
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/lib/auth/ecc/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/lib/auth/ecc/index.js'
+ @ ./src/utils/auth.js 26:11-53
+ @ ./src/components/Apps/App.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/lib/auth/memo.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/lib/auth/memo.js'
+ @ ./src/utils/auth.js 24:12-55
+ @ ./src/components/Apps/App.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/lib/broadcast/operations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/lib/broadcast/operations.js'
+ @ ./src/components/Docs/Steemjs.js 25:18-72
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/lib/index.js'
+ @ ./src/store.js 13:13-42
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/@whaleshares/wlsjs/package.json
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/@whaleshares/wlsjs/package.json'
+ @ ./src/components/Docs/Steemjs.js 17:15-57
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/badge/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/badge/index.js'
+ @ ./src/components/Sign/Placeholder/TransferDelegate.js 7:13-38
+ @ ./src/components/Sign.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/button/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/button/index.js'
+ @ ./src/components/Index.js 19:14-40
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/card/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/card/index.js'
+ @ ./src/components/Accounts/RecoverAccount.js 7:12-36
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/dropdown/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/dropdown/index.js'
+ @ ./src/widgets/Header.js 7:16-44
+ @ ./src/app.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/form/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/form/index.js'
+ @ ./src/components/Index.js 7:12-36
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/icon/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/icon/index.js'
+ @ ./src/components/Index.js 23:12-36
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/input/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/input/index.js'
+ @ ./src/components/Index.js 11:13-38
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/layout/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/layout/index.js'
+ @ ./src/app.js 8:14-40
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/menu/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/menu/index.js'
+ @ ./src/widgets/Header.js 11:12-36
+ @ ./src/app.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/message/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/message/index.js'
+ @ ./src/components/GenerateLink.js 39:16-43
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/modal/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/modal/index.js'
+ @ ./src/components/Apps/App.js 7:13-38
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/notification/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/notification/index.js'
+ @ ./src/components/Apps/App.js 11:21-53
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/popover/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/popover/index.js'
+ @ ./src/components/Index.js 15:15-42
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/radio/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/radio/index.js'
+ @ ./src/components/Apps/AppForm.js 15:13-38
+ @ ./src/components/Apps/EditApp.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/antd/lib/steps/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/antd/lib/steps/index.js'
+ @ ./src/components/GenerateLink.js 23:13-38
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/core-js/json/stringify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/core-js/json/stringify.js'
+ @ ./src/components/Apps/EditApp.js 11:17-64
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/core-js/object/get-prototype-of.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/core-js/object/get-prototype-of.js'
+ @ ./src/wrapper.js 7:22-78
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/core-js/object/keys.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/core-js/object/keys.js'
+ @ ./src/components/GenerateLink.js 31:12-56
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/core-js/promise.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/core-js/promise.js'
+ @ ./helpers/utils.js 3:15-55
+ @ ./src/components/Apps/CreateApp.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/asyncToGenerator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/asyncToGenerator.js'
+ @ ./src/components/Apps/AuthorizedApps.js 15:25-74
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/classCallCheck.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/classCallCheck.js'
+ @ ./src/wrapper.js 11:23-70
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/createClass.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/createClass.js'
+ @ ./src/wrapper.js 15:20-64
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/extends.js'
+ @ ./src/components/Accounts/RecoverAccount.js 23:16-56
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/inherits.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/inherits.js'
+ @ ./src/wrapper.js 23:17-58
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/possibleConstructorReturn.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/possibleConstructorReturn.js'
+ @ ./src/wrapper.js 19:34-92
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/helpers/slicedToArray.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/helpers/slicedToArray.js'
+ @ ./src/components/Sign/Placeholder/TransferDelegate.js 11:22-68
+ @ ./src/components/Sign.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/babel-runtime/regenerator/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/babel-runtime/regenerator/index.js'
+ @ ./src/components/Apps/AuthorizedApps.js 11:19-55
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/change-case/change-case.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/change-case/change-case.js'
+ @ ./src/components/Docs/Steemjs.js 13:18-40
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/css-loader/lib/css-base.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/css-loader/lib/css-base.js'
+ @ ./node_modules/css-loader?sourceMap?importLoaders=1!./node_modules/postcss-loader/lib?browsers=last 2 version!./node_modules/less-loader/dist/cjs.js!./src/components/Index.less 1:27-83
+ @ ./src/components/Index.less
+ @ ./src/components/Index.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/diacritics/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/diacritics/index.js'
+ @ ./helpers/operations/comment.js 9:17-38
+ @ ./helpers/operations/index.js
+ @ ./helpers/operation.js
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/es6-shim/es6-shim.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/es6-shim/es6-shim.js'
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/intl/dist/Intl.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/intl/dist/Intl.js'
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/isomorphic-fetch/fetch-npm-browserify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/isomorphic-fetch/fetch-npm-browserify.js'
+ @ ./src/components/Apps/App.js 57:23-50
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/js-base64/base64.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/js-base64/base64.js'
+ @ ./src/utils/localStorage.js 20:14-34
+ @ ./src/components/Auth/Authorize.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/jsonwebtoken/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/jsonwebtoken/index.js'
+ @ ./src/components/Auth/Authorize.js 79:20-43
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/local-storage/local-storage.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/local-storage/local-storage.js'
+ @ ./src/utils/localStorage.js 16:20-44
+ @ ./src/components/Auth/Authorize.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/cloneDeep.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/cloneDeep.js'
+ @ ./helpers/operation.js 19:16-43
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/difference.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/difference.js'
+ @ ./src/components/Auth/Authorize.js 91:18-46
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/get.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/get.js'
+ @ ./helpers/operation.js 20:10-31
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/has.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/has.js'
+ @ ./helpers/operation.js 21:10-31
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/hasIn.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/hasIn.js'
+ @ ./helpers/operation.js 22:12-35
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/intersection.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/intersection.js'
+ @ ./src/components/Auth/Authorize.js 87:20-50
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/isEmpty.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/isEmpty.js'
+ @ ./src/utils/localStorage.js 12:15-40
+ @ ./src/components/Auth/Authorize.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/join.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/join.js'
+ @ ./helpers/operations/delegate-vesting-shares.js 18:11-33
+ @ ./helpers/operations/index.js
+ @ ./helpers/operation.js
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/merge.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/merge.js'
+ @ ./src/utils/locales.js 14:13-36
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/lodash/set.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/lodash/set.js'
+ @ ./helpers/operation.js 23:10-31
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/moment/moment.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/moment/moment.js'
+ @ ./helpers/validation-utils.js 18:13-30
+ @ ./helpers/operations/claim-account.js
+ @ ./helpers/operations/index.js
+ @ ./helpers/operation.js
+ @ ./src/components/Accounts/RequestAccountRecovery.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/numeral/numeral.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/numeral/numeral.js'
+ @ ./src/components/Accounts/Permissions.js 53:15-33
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/query-string/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/query-string/index.js'
+ @ ./src/components/Auth/Authorize.js 75:19-42
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-dom/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-dom/index.js'
+ @ ./src/index.js 7:16-36
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-intl/lib/index.es.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-intl/lib/index.es.js'
+ @ ./src/wrapper.js 49:17-38
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-redux/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-redux/lib/index.js'
+ @ ./src/index.js 13:18-40
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-router/es/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-router/es/index.js'
+ @ ./src/index.js 11:19-42
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-transform-catch-errors/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-transform-catch-errors/lib/index.js'
+ @ ./src/wrapper.js 31:14-111
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react-transform-hmr/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react-transform-hmr/lib/index.js'
+ @ ./src/wrapper.js 39:14-102
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/react/react.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/react/react.js'
+ @ ./src/index.js 3:13-29
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/redbox-react/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/redbox-react/lib/index.js'
+ @ ./src/wrapper.js 27:13-94
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/redux-actions/lib/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/redux-actions/lib/index.js'
+ @ ./src/actions/auth.js 18:20-44
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/redux-thunk/es/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/redux-thunk/es/index.js'
+ @ ./src/store.js 9:18-40
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/redux/es/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/redux/es/index.js'
+ @ ./src/store.js 7:13-29
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/style-loader/addStyles.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/style-loader/addStyles.js'
+ @ ./src/styles/common.less 7:13-69
+ @ ./src/wrapper.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in ./node_modules/validator/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/validator/index.js'
+ @ ./src/components/Apps/AppForm.js 69:17-37
+ @ ./src/components/Apps/EditApp.js
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in (webpack)-hot-middleware/client.js?reload=true
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/webpack-hot-middleware/client.js'
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+
+[1m[31mERROR in (webpack)/buildin/module.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/jarettrsdunn/steemconnect/node_modules/webpack/buildin/module.js'
+ @ ./src/wrapper.js 1:0-54
+ @ ./src/routes.js
+ @ ./src/index.js
+ @ multi webpack-hot-middleware/client?reload=true ./node_modules/es6-shim/es6-shim.js ./node_modules/intl/dist/Intl.js ./src/index.js[39m[22m
+webpack: Failed to compile.
+webpack: Compiling...
+webpack building...
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"level":30,"msg":"running in development mode","time":"2018-11-09T22:21:12.927Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T22:21:13.331Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8086066548128403","ip":"::ffff:24.89.216.167","level":30,"ms":389.079362,"code":200,"msg":"GET /login","time":"2018-11-09T22:21:17.413Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8086066548128403","ip":"::ffff:24.89.216.167","level":30,"ms":389.716458,"code":200,"msg":"GET /login","time":"2018-11-09T22:21:17.414Z","v":0}
+webpack: wait until bundle finished: /js/app.min.js
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3407832696003693","ip":"::ffff:24.89.216.167","level":30,"ms":1049.639169,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:21:18.687Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3407832696003693","ip":"::ffff:24.89.216.167","level":30,"ms":1050.315972,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:21:18.688Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-583530226895823","ip":"::ffff:24.89.216.167","level":30,"ms":156.070544,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:21:19.126Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-583530226895823","ip":"::ffff:24.89.216.167","level":30,"ms":156.298706,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:21:19.126Z","v":0}
+webpack built dd44555ab06226ae163c in 14530ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14530[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3003863339397883","ip":"::ffff:24.89.216.167","level":30,"ms":10121.779646,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:21:27.922Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3003863339397883","ip":"::ffff:24.89.216.167","level":30,"ms":10122.047334,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:21:27.922Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-1851687453214495","ip":"::ffff:24.89.216.167","level":30,"ms":1.877871,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:21:34.153Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-1851687453214495","ip":"::ffff:24.89.216.167","level":30,"ms":2.124924,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:21:34.153Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3179050665539261","ip":"::ffff:24.89.216.167","level":30,"ms":1.565092,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:21:34.277Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-3179050665539261","ip":"::ffff:24.89.216.167","level":30,"ms":1.774404,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:21:34.277Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8272690845154345","ip":"::ffff:24.89.216.167","level":30,"ms":2.653882,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:21:34.278Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8272690845154345","ip":"::ffff:24.89.216.167","level":30,"ms":2.753289,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:21:34.278Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-7670462930474003","ip":"::ffff:24.89.216.167","level":30,"ms":2.595213,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:21:34.278Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-7670462930474003","ip":"::ffff:24.89.216.167","level":30,"ms":2.692719,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:21:34.279Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-4200996601720065","ip":"::ffff:24.89.216.167","level":30,"ms":1.036385,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:21:34.283Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-4200996601720065","ip":"::ffff:24.89.216.167","level":30,"ms":1.156357,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:21:34.283Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8780319871202223","ip":"::ffff:24.89.216.167","level":30,"ms":4.55055,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:21:34.660Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8780319871202223","ip":"::ffff:24.89.216.167","level":30,"ms":4.721162,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:21:34.660Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8379554998497697","ip":"::ffff:24.89.216.167","level":30,"ms":1.150074,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:21:34.685Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22468,"req_id":"dev-8379554998497697","ip":"::ffff:24.89.216.167","level":30,"ms":1.340706,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T22:21:34.685Z","v":0}
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2018-11-09T22_26_44_075Z-debug.log
+
+> sc2@0.1.0 start-dev /home/jarettrsdunn/steemconnect
+> nodemon --ignore src ./bin/www | bunyan -o short
+
+(node:22602) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+[33m[nodemon] 1.18.6[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:180:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"level":30,"msg":"running in development mode","time":"2018-11-09T22:27:17.111Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T22:27:17.514Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-85080811312663","ip":"::ffff:24.89.216.167","level":30,"ms":313.308549,"code":200,"msg":"GET /login","time":"2018-11-09T22:27:21.399Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-85080811312663","ip":"::ffff:24.89.216.167","level":30,"ms":313.826626,"code":200,"msg":"GET /login","time":"2018-11-09T22:27:21.400Z","v":0}
+webpack: wait until bundle finished: /js/app.min.js
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5243656325130687","ip":"::ffff:24.89.216.167","level":30,"ms":912.66262,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:27:22.827Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5243656325130687","ip":"::ffff:24.89.216.167","level":30,"ms":913.68001,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T22:27:22.827Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5275793094869681","ip":"::ffff:24.89.216.167","level":30,"ms":71.558217,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:27:23.512Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5275793094869681","ip":"::ffff:24.89.216.167","level":30,"ms":71.829301,"code":200,"msg":"GET /css/base.css.map","time":"2018-11-09T22:27:23.512Z","v":0}
+webpack built dd44555ab06226ae163c in 14146ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14146[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-8631593217445933","ip":"::ffff:24.89.216.167","level":30,"ms":9278.456542,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:27:31.723Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-8631593217445933","ip":"::ffff:24.89.216.167","level":30,"ms":9278.696826,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T22:27:31.723Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5643915192584953","ip":"::ffff:24.89.216.167","level":30,"ms":1.76047,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:27:37.014Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5643915192584953","ip":"::ffff:24.89.216.167","level":30,"ms":2.021273,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T22:27:37.014Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-7716110062168673","ip":"::ffff:24.89.216.167","level":30,"ms":2.459574,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:27:37.019Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-7716110062168673","ip":"::ffff:24.89.216.167","level":30,"ms":2.588542,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T22:27:37.019Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-8464083566705239","ip":"::ffff:24.89.216.167","level":30,"ms":3.640513,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:27:37.020Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-8464083566705239","ip":"::ffff:24.89.216.167","level":30,"ms":3.736925,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T22:27:37.020Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-2037515640258235","ip":"::ffff:24.89.216.167","level":30,"ms":2.42912,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:27:37.020Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-2037515640258235","ip":"::ffff:24.89.216.167","level":30,"ms":2.528312,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T22:27:37.021Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-3642276166643893","ip":"::ffff:24.89.216.167","level":30,"ms":3.086138,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:27:37.021Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-3642276166643893","ip":"::ffff:24.89.216.167","level":30,"ms":3.196764,"code":200,"msg":"GET /img/logo.svg","time":"2018-11-09T22:27:37.022Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5711586745264987","ip":"::ffff:24.89.216.167","level":30,"ms":3.645329,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:27:37.336Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-5711586745264987","ip":"::ffff:24.89.216.167","level":30,"ms":3.802164,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T22:27:37.336Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-1395963316373815","ip":"::ffff:24.89.216.167","level":30,"ms":1.140368,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:27:37.391Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":22645,"req_id":"dev-1395963316373815","ip":"::ffff:24.89.216.167","level":30,"ms":1.294755,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T22:27:37.391Z","v":0}
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2018-11-09T22_29_13_375Z-debug.log
+
+> sc2@0.1.0 start /home/jarettrsdunn/steemconnect
+> ./bin/www
+
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"level":30,"msg":"running in development mode","time":"2018-11-09T23:07:01.742Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"level":30,"msg":"Listening on port 3000","time":"2018-11-09T23:07:02.167Z","v":0}
+webpack built ec9a2f4e483f01929033 in 14374ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m14374[39m[22mms
+     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[33mapp.min.js[39m[22m  [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7303191630721955","ip":"::ffff:24.89.216.167","level":30,"ms":19.617856,"code":200,"msg":"GET /js/d9a8b580e89bcda5d50d.hot-update.json","time":"2018-11-09T23:07:18.514Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7303191630721955","ip":"::ffff:24.89.216.167","level":30,"ms":20.233747,"code":200,"msg":"GET /js/d9a8b580e89bcda5d50d.hot-update.json","time":"2018-11-09T23:07:18.514Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1980691635892745","ip":"::ffff:24.89.216.167","level":30,"ms":3.2105,"code":200,"msg":"GET /apps/create","time":"2018-11-09T23:07:27.262Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1980691635892745","ip":"::ffff:24.89.216.167","level":30,"ms":3.418573,"code":200,"msg":"GET /apps/create","time":"2018-11-09T23:07:27.262Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-77320071636417","ip":"::ffff:24.89.216.167","level":30,"ms":9380.978441,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T23:07:27.363Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-77320071636417","ip":"::ffff:24.89.216.167","level":30,"ms":9381.29625,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T23:07:27.363Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4829991701344461","ip":"::ffff:24.89.216.167","level":30,"ms":5.956617,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T23:07:27.440Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4829991701344461","ip":"::ffff:24.89.216.167","level":30,"ms":6.707796,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T23:07:27.440Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1372984243204055","ip":"::ffff:24.89.216.167","level":30,"ms":22.66381,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T23:07:27.551Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1372984243204055","ip":"::ffff:24.89.216.167","level":30,"ms":22.893963,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T23:07:27.551Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-631655019624415","ip":"::ffff:24.89.216.167","level":30,"ms":1.555383,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T23:07:28.421Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-631655019624415","ip":"::ffff:24.89.216.167","level":30,"ms":1.745199,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T23:07:28.421Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3891030505688415","ip":"::ffff:24.89.216.167","level":30,"ms":1.94482,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T23:07:32.959Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3891030505688415","ip":"::ffff:24.89.216.167","level":30,"ms":2.204856,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T23:07:32.960Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-452805072149109","ip":"::ffff:24.89.216.167","level":30,"ms":17.414536,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:07:33.196Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-452805072149109","ip":"::ffff:24.89.216.167","level":30,"ms":17.654427,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:07:33.196Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8641315761860751","ip":"::ffff:24.89.216.167","level":30,"ms":3.094769,"code":304,"msg":"GET /apps/bootstrap.min.css.map","time":"2018-11-09T23:07:33.512Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8641315761860751","ip":"::ffff:24.89.216.167","level":30,"ms":3.239869,"code":304,"msg":"GET /apps/bootstrap.min.css.map","time":"2018-11-09T23:07:33.512Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7826375988090551","ip":"::ffff:24.89.216.167","level":30,"ms":1.552221,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T23:07:33.532Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7826375988090551","ip":"::ffff:24.89.216.167","level":30,"ms":1.796085,"code":200,"msg":"GET /favicon.ico","time":"2018-11-09T23:07:33.532Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4552736905460709","ip":"::ffff:24.89.216.167","level":30,"ms":4.037582,"code":200,"msg":"GET //","time":"2018-11-09T23:08:13.958Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4552736905460709","ip":"::ffff:24.89.216.167","level":30,"ms":4.451057,"code":200,"msg":"GET //","time":"2018-11-09T23:08:13.958Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-6123328696504701","ip":"::ffff:24.89.216.167","level":30,"ms":41247.137785,"code":200,"msg":"POST /api/me","time":"2018-11-09T23:08:14.075Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4106929245376549","ip":"::ffff:24.89.216.167","level":30,"ms":40896.06638,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T23:08:14.076Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4106929245376549","ip":"::ffff:24.89.216.167","level":30,"ms":40896.466893,"code":200,"msg":"GET /__webpack_hmr","time":"2018-11-09T23:08:14.076Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8519340013476775","ip":"::ffff:24.89.216.167","level":30,"ms":1.26872,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T23:08:14.126Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8519340013476775","ip":"::ffff:24.89.216.167","level":30,"ms":1.437939,"code":304,"msg":"GET /css/base.css","time":"2018-11-09T23:08:14.127Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3815311797183551","ip":"::ffff:24.89.216.167","level":30,"ms":22.047936,"code":304,"msg":"GET /js/app.min.js","time":"2018-11-09T23:08:14.249Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3815311797183551","ip":"::ffff:24.89.216.167","level":30,"ms":22.253396,"code":304,"msg":"GET /js/app.min.js","time":"2018-11-09T23:08:14.250Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-221999716761251","ip":"::ffff:24.89.216.167","level":30,"ms":0.959178,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T23:08:14.310Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-221999716761251","ip":"::ffff:24.89.216.167","level":30,"ms":1.154275,"code":304,"msg":"GET /css/base.css.map","time":"2018-11-09T23:08:14.310Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1963920526602615","ip":"::ffff:24.89.216.167","level":30,"ms":1.875783,"code":200,"msg":"GET /fonts/MaterialIcons.woff2","time":"2018-11-09T23:08:15.982Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1963920526602615","ip":"::ffff:24.89.216.167","level":30,"ms":2.122039,"code":200,"msg":"GET /fonts/MaterialIcons.woff2","time":"2018-11-09T23:08:15.982Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-274099584949829","ip":"::ffff:24.89.216.167","level":30,"ms":0.946493,"code":304,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:08:16.082Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-274099584949829","ip":"::ffff:24.89.216.167","level":30,"ms":1.091994,"code":304,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:08:16.083Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7497762392511111","ip":"::ffff:24.89.216.167","level":30,"ms":2.619863,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T23:08:16.083Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7497762392511111","ip":"::ffff:24.89.216.167","level":30,"ms":2.785675,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T23:08:16.083Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-99987171318773","ip":"::ffff:24.89.216.167","level":30,"ms":0.627201,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T23:08:16.425Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-99987171318773","ip":"::ffff:24.89.216.167","level":30,"ms":0.806108,"code":304,"msg":"GET /favicon.ico","time":"2018-11-09T23:08:16.425Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8466289282217207","ip":"::ffff:24.89.216.167","level":30,"ms":3.039809,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T23:08:16.823Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8466289282217207","ip":"::ffff:24.89.216.167","level":30,"ms":3.213092,"code":304,"msg":"GET /bootstrap.min.css.map","time":"2018-11-09T23:08:16.824Z","v":0}
+Unhandled rejection Error: connect ETIMEDOUT 192.168.1.25:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)
+Unhandled rejection Error: connect ETIMEDOUT 192.168.1.25:8090
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8509743264863481","ip":"::ffff:172.251.32.81","level":30,"ms":2.594654,"code":304,"msg":"GET /","time":"2018-11-09T23:09:50.727Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8509743264863481","ip":"::ffff:172.251.32.81","level":30,"ms":2.740477,"code":304,"msg":"GET /","time":"2018-11-09T23:09:50.728Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4693533271846009","ip":"::ffff:172.251.32.81","level":30,"ms":22.088857,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T23:09:50.778Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4693533271846009","ip":"::ffff:172.251.32.81","level":30,"ms":22.249965,"code":200,"msg":"GET /js/app.min.js","time":"2018-11-09T23:09:50.778Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8558268825830585","ip":"::ffff:172.251.32.81","level":30,"ms":56.6818,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T23:09:50.812Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-8558268825830585","ip":"::ffff:172.251.32.81","level":30,"ms":56.912853,"code":200,"msg":"GET /css/base.css","time":"2018-11-09T23:09:50.812Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-5648164300430689","ip":"::ffff:172.251.32.81","level":30,"ms":2.078824,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T23:09:52.549Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-5648164300430689","ip":"::ffff:172.251.32.81","level":30,"ms":2.236808,"code":200,"msg":"GET /fonts/Iconfont.woff","time":"2018-11-09T23:09:52.549Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7193905461807549","ip":"::ffff:172.251.32.81","level":30,"ms":1.817004,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T23:09:52.550Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7193905461807549","ip":"::ffff:172.251.32.81","level":30,"ms":1.918119,"code":200,"msg":"GET /fonts/WhitneyBold.woff","time":"2018-11-09T23:09:52.550Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4173223834039655","ip":"::ffff:172.251.32.81","level":30,"ms":1.595292,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:09:52.564Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-4173223834039655","ip":"::ffff:172.251.32.81","level":30,"ms":1.761902,"code":200,"msg":"GET /fonts/Whitney.woff","time":"2018-11-09T23:09:52.565Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-6223060703079691","ip":"::ffff:172.251.32.81","level":30,"ms":1.13076,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T23:09:52.575Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-6223060703079691","ip":"::ffff:172.251.32.81","level":30,"ms":1.283691,"code":200,"msg":"GET /fonts/WhitneyMedium.woff","time":"2018-11-09T23:09:52.575Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-6908120058657397","ip":"::ffff:24.89.216.167","level":30,"ms":120003.799069,"code":200,"msg":"POST /api/me","time":"2018-11-09T23:10:15.825Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 45d0dd75b326feba5712 in 1738ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m1738[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                          [1m[33mapp.min.js[39m[22m   [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.ec9a2f4e483f01929033.hot-update.js[39m[22m   11.9 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mec9a2f4e483f01929033.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-5935539083687987","ip":"::ffff:24.89.216.167","level":30,"ms":0.813875,"code":200,"msg":"GET /js/ec9a2f4e483f01929033.hot-update.json","time":"2018-11-09T23:10:29.941Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-5935539083687987","ip":"::ffff:24.89.216.167","level":30,"ms":0.986506,"code":200,"msg":"GET /js/ec9a2f4e483f01929033.hot-update.json","time":"2018-11-09T23:10:29.941Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-757051471630349","ip":"::ffff:24.89.216.167","level":30,"ms":0.668541,"code":200,"msg":"GET /js/0.ec9a2f4e483f01929033.hot-update.js","time":"2018-11-09T23:10:30.072Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-757051471630349","ip":"::ffff:24.89.216.167","level":30,"ms":0.833295,"code":200,"msg":"GET /js/0.ec9a2f4e483f01929033.hot-update.js","time":"2018-11-09T23:10:30.072Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 7ce8498cdc926f3e63fa in 1103ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m1103[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                          [1m[33mapp.min.js[39m[22m   [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.45d0dd75b326feba5712.hot-update.js[39m[22m   20.3 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32m45d0dd75b326feba5712.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7128881589804767","ip":"::ffff:24.89.216.167","level":30,"ms":0.817519,"code":200,"msg":"GET /js/45d0dd75b326feba5712.hot-update.json","time":"2018-11-09T23:10:45.050Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7128881589804767","ip":"::ffff:24.89.216.167","level":30,"ms":0.972294,"code":200,"msg":"GET /js/45d0dd75b326feba5712.hot-update.json","time":"2018-11-09T23:10:45.050Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1676161943509697","ip":"::ffff:24.89.216.167","level":30,"ms":0.669908,"code":200,"msg":"GET /js/0.45d0dd75b326feba5712.hot-update.js","time":"2018-11-09T23:10:45.154Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1676161943509697","ip":"::ffff:24.89.216.167","level":30,"ms":0.824002,"code":200,"msg":"GET /js/0.45d0dd75b326feba5712.hot-update.js","time":"2018-11-09T23:10:45.154Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 1d92e1979fa88699624f in 988ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m988[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                          [1m[33mapp.min.js[39m[22m   [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.7ce8498cdc926f3e63fa.hot-update.js[39m[22m   15.6 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32m7ce8498cdc926f3e63fa.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-2583992840060429","ip":"::ffff:24.89.216.167","level":30,"ms":0.843998,"code":200,"msg":"GET /js/7ce8498cdc926f3e63fa.hot-update.json","time":"2018-11-09T23:10:55.561Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-2583992840060429","ip":"::ffff:24.89.216.167","level":30,"ms":1.025012,"code":200,"msg":"GET /js/7ce8498cdc926f3e63fa.hot-update.json","time":"2018-11-09T23:10:55.561Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3336192392351427","ip":"::ffff:24.89.216.167","level":30,"ms":0.56716,"code":200,"msg":"GET /js/0.7ce8498cdc926f3e63fa.hot-update.js","time":"2018-11-09T23:10:55.675Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3336192392351427","ip":"::ffff:24.89.216.167","level":30,"ms":0.749857,"code":200,"msg":"GET /js/0.7ce8498cdc926f3e63fa.hot-update.js","time":"2018-11-09T23:10:55.675Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 1e16cf4ddfbc0c5fe14c in 913ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m913[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                          [1m[33mapp.min.js[39m[22m   [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.1d92e1979fa88699624f.hot-update.js[39m[22m   14.4 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32m1d92e1979fa88699624f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1877108075622411","ip":"::ffff:24.89.216.167","level":30,"ms":0.968309,"code":200,"msg":"GET /js/1d92e1979fa88699624f.hot-update.json","time":"2018-11-09T23:11:03.926Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1877108075622411","ip":"::ffff:24.89.216.167","level":30,"ms":1.123513,"code":200,"msg":"GET /js/1d92e1979fa88699624f.hot-update.json","time":"2018-11-09T23:11:03.926Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7576074279177047","ip":"::ffff:24.89.216.167","level":30,"ms":0.676043,"code":200,"msg":"GET /js/0.1d92e1979fa88699624f.hot-update.js","time":"2018-11-09T23:11:04.028Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-7576074279177047","ip":"::ffff:24.89.216.167","level":30,"ms":0.891016,"code":200,"msg":"GET /js/0.1d92e1979fa88699624f.hot-update.js","time":"2018-11-09T23:11:04.028Z","v":0}
+webpack: Compiling...
+webpack building...
+webpack built 0a732962c3824f04739e in 983ms
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m983[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                          [1m[33mapp.min.js[39m[22m   [1m[33m15.4 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.1e16cf4ddfbc0c5fe14c.hot-update.js[39m[22m   10.7 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32m1e16cf4ddfbc0c5fe14c.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+webpack: Compiled successfully.
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1716383355965957","ip":"::ffff:24.89.216.167","level":30,"ms":1.019928,"code":200,"msg":"GET /js/1e16cf4ddfbc0c5fe14c.hot-update.json","time":"2018-11-09T23:11:12.217Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-1716383355965957","ip":"::ffff:24.89.216.167","level":30,"ms":1.268394,"code":200,"msg":"GET /js/1e16cf4ddfbc0c5fe14c.hot-update.json","time":"2018-11-09T23:11:12.217Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3849508638195423","ip":"::ffff:24.89.216.167","level":30,"ms":0.591694,"code":200,"msg":"GET /js/0.1e16cf4ddfbc0c5fe14c.hot-update.js","time":"2018-11-09T23:11:12.319Z","v":0}
+{"name":"steemconnect","hostname":"instance-2","pid":23666,"req_id":"dev-3849508638195423","ip":"::ffff:24.89.216.167","level":30,"ms":0.746567,"code":200,"msg":"GET /js/0.1e16cf4ddfbc0c5fe14c.hot-update.js","time":"2018-11-09T23:11:12.319Z","v":0}
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! sc2@0.1.0 start: `./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the sc2@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2018-11-09T23_11_20_943Z-debug.log
