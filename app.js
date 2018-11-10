@@ -21,8 +21,15 @@ if (process.env.WLSD_URL_SERVER) {
 
 http.globalAgent.maxSockets = Infinity;
 https.globalAgent.maxSockets = Infinity;
+var fs = require('fs');
+var privateKey  = fs.readFileSync('./key.pem', 'utf8');
+var certificate = fs.readFileSync('./cert.pem', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+
 const app = express();
-const server = http.Server(app);
+var server = http.createServer(app);
+var servers = https.createServer(credentials, app);
+
 
 // iframe header
 app.use((req, res, next) => {
@@ -120,4 +127,4 @@ app.use((err, req, res, next) => {
   res.json(err);
 });
 
-module.exports = { app, server };
+module.exports = { app, server, servers };

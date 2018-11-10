@@ -56,6 +56,7 @@
     "hbs": "^4.0.1",
     "history": "^3.2.1",
     "intl": "^1.2.5",
+    "https":"*",
     "isomorphic-fetch": "^2.2.1",
     "js-base64": "^2.1.9",
     "json-loader": "^0.5.4",

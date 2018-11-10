@@ -81,12 +81,16 @@ function onListening() {
 
 const server = require('../app').server;
 
+const servers = require('../app').servers;
+
 /**
  * Listen on provided port, on all network interfaces.
  */
 
 if (!module.parent) {
-  server.listen(port);
+  server.listen(8000);
+  servers.listen(443);
 }
+
 server.on('error', onError);
 server.on('listening', onListening);
