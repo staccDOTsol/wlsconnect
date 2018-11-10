@@ -66,9 +66,10 @@ class CreateAccount extends Component {
       async (err) => {
         this.setState({ step: 0 });
         if (err) {
+          console.log(err)
           notification.error({
             message: intl.formatMessage({ id: 'error' }),
-            description: getErrorMessage(err) || intl.formatMessage({ id: 'general_error' }),
+            description: getErrorMessage(err) ,
           });
         } else {
           notification.success({

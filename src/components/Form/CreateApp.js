@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import { FormattedMessage, injectIntl, intlShape } from 'react-intl';
 import { Form, Input, Button } from 'antd';
 import { accountNotExist, validateAccountName } from '../../utils/validator';
+import { getErrorMessage } from '../../../helpers/operation';
 
 class Internal extends React.Component {
   static propTypes = {
@@ -20,7 +21,14 @@ class Internal extends React.Component {
     e.preventDefault();
     this.props.form.validateFieldsAndScroll((err, values) => {
       if (!err) {
+
         this.props.onSubmit(values);
+      }else{
+        console.log(err)
+        notification.error({
+            message: intl.formatMessage({ id: 'error' }),
+            description: getErrorMessage(err) ,
+          });
       }
     });
   };
@@ -33,7 +41,7 @@ class Internal extends React.Component {
           label={<FormattedMessage id="choose_username" />}
           hasFeedback
         >
-          {getFieldDecorator('username2', {
+          {getFieldDecorator('name', {
             validateFirst: true,
             validateTrigger: 'onBlur',
             rules: [

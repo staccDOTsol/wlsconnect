@@ -9,10 +9,10 @@
     "claim_reward_balance"
   ],
   "offline_generated_public_keys": {
-    "owner": "STM82hFUKjN2j8KGqQ8rz9YgFAbMrWFuCPkabtrAnUfV2JQshNPLz",
-    "active": "STM78mV5drS6a5SredobAJXvzZv7tvBo4Cj15rumRcBtMzTWT173a",
-    "posting": "STM6ZVzWQvbYSzVpY2PRJHu7QSASVy8aB8xSVcJgx5seYGHPFvJkZ",
-    "memo": "STM7o1DigBaUEF28n2ap5PeY9Jqhndz3zWmF7xZ3zfRgSqeLaMnyA"
+    "owner": "WLS6oMgnafMqGJLGCh1FNhY63U9zrLtQt17kdFvHQi3WGwn43EnNh",
+    "active": "WLS5KjqGaXneSK78dXBhcRtF6dtJ1HxG3xJv1u5E1Zjhk6ythENH1",
+    "posting": "WLS83NPJmttVQYzS2mogNJae8YLxjXF85eA8AodnT7trBRit5CZbF",
+    "memo": "WLS68TRQyXVd8qbDUbg5Wmjsq2Rs2ZpatySNKSo5Pxspdzy3Vre5R"
   },
   "user_metadata": {
     "max_size": 16000000

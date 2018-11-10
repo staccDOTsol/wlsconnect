@@ -7,7 +7,7 @@ const allowedSymbols = [
   { symbol: 'SBD', precision: 3 },
   { symbol: 'WLS', precision: 3 },
   { symbol: 'SP', precision: 3 },
-  { symbol: 'VESTS', precision: 6 },
+  { symbol: 'WHALESTAKE', precision: 6 },
 ];
 
 const isAsset = (value) => {

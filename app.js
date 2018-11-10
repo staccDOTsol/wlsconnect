@@ -11,6 +11,7 @@ const db = require('./db/models');
 const { strategy } = require('./helpers/middleware');
 const logger = require('./helpers/logger');
 steem.api.setOptions({ url: 'ws://188.166.99.136:8090/' });
+steem.config.set('address_prefix','WLS');
 
 if (process.env.WLSD_URL_SERVER) {
   steem.api.setOptions({ url: process.env.WLSD_URL_SERVER });
@@ -32,13 +33,13 @@ app.use((req, res, next) => {
 // Content security policies
 app.use(csp({
   policies: {
-    'default-src': (process.env.CSP_DEFAULT || "'35.236.1.148:3000'").split(','),
-    'script-src': (process.env.CSP_SCRIPT_SRC || "'35.236.1.148:3000','unsafe-eval','unsafe-inline'").split(','),
-    'connect-src': (process.env.CSP_CONNECT_SRC || "'35.236.1.148:3000'").split(','),
-    'frame-src': (process.env.CSP_FRAME_SRC || "'35.236.1.148:3000'").split(','),
-    'style-src': (process.env.CSP_STYLE_SRC || "'35.236.1.148:3000'").split(','),
-    'img-src': (process.env.CSP_IMG_SRC || "'35.236.1.148:3000'").split(','),
-    'font-src': (process.env.CSP_FONT_SRC || "'35.236.1.148:3000'").split(','),
+    'default-src': (process.env.CSP_DEFAULT || "'192.168.0.12:3000'").split(','),
+    'script-src': (process.env.CSP_SCRIPT_SRC || "'192.168.0.12:3000','unsafe-eval','unsafe-inline'").split(','),
+    'connect-src': (process.env.CSP_CONNECT_SRC || "'192.168.0.12:3000'").split(','),
+    'frame-src': (process.env.CSP_FRAME_SRC || "'192.168.0.12:3000'").split(','),
+    'style-src': (process.env.CSP_STYLE_SRC || "'192.168.0.12:3000'").split(','),
+    'img-src': (process.env.CSP_IMG_SRC || "'192.168.0.12:3000'").split(','),
+    'font-src': (process.env.CSP_FONT_SRC || "'192.168.0.12:3000'").split(','),
   },
 }));
 

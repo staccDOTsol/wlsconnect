@@ -22,7 +22,7 @@ const parse = async (query) => {
         parseFloat(globalProps.total_vesting_shares)) /
         parseFloat(globalProps.total_vesting_fund_steem)
       ).toFixed(6),
-      'VESTS',
+      'WHALESTAKE',
     ], ' ');
   } else {
     cQuery.vesting_shares = join([parseFloat(amount).toFixed(6), symbol], ' ');
@@ -40,7 +40,7 @@ const validate = async (query, errors) => {
   }
 
   if (!isEmpty(query.vesting_shares)) {
-    if (!['VESTS', 'SP'].includes(query.vesting_shares.split(' ')[1])) {
+    if (!['WHALESTAKE', 'SP'].includes(query.vesting_shares.split(' ')[1])) {
       errors.push({ field: 'vesting_shares', error: 'error_vests_symbol' });
     } else if (!isAsset(query.vesting_shares)) {
       errors.push({ field: 'vesting_shares', error: 'error_vests_format' });
@@ -70,7 +70,7 @@ const normalize = async (query) => {
   }
 
   const [amount, symbol] = cQuery.vesting_shares.split(' ');
-  if (amount && symbol === 'VESTS') {
+  if (amount && symbol === 'WHALESTAKE') {
     const globalProps = await steem.api.getDynamicGlobalPropertiesAsync();
     cQuery.amount = join(
       [

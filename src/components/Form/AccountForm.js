@@ -24,9 +24,9 @@ export default class AccountForm extends Form {
         <div className="block">
           <div className={this.getClasses('name', 'form-group')}>
             <p>The cost to create an account is <b>{this.props.accountCreationFee}</b>.</p>
-            <label className="label" htmlFor="username2"><FormattedMessage id="username2" /></label>
+            <label className="label" htmlFor="name"><FormattedMessage id="name" /></label>
             <input
-              id="username2"
+              id="name"
               type="text"
               className="form-control"
               name="name"

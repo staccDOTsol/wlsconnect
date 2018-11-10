@@ -32,13 +32,13 @@ export BROADCASTER_POSTING_WIF=wif
 export JWT_SECRET=oowoowoo123
 export DEBUG=sc2:*
 export DATABASE_URL=postgres://root:root@localhost:5432/test2
-export CSP_DEFAULT='35.236.1.148:3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_SCRIPT_SRC='35.236.1.148:3000',"'unsafe-eval'"
+export CSP_DEFAULT='192.168.0.12:3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_SCRIPT_SRC='192.168.0.12:3000',"'unsafe-eval'"
 export CSP_CONNECT_SRC='*',"'unsafe-inline'","'unsafe-eval'"
-export CSP_FRAME_SRC='35.236.1.148:3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_STYLE_SRC='35.236.1.148:3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_IMG_SRC='35.236.1.148:3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_FONT_SRC='35.236.1.148:3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_FRAME_SRC='192.168.0.12:3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_STYLE_SRC='192.168.0.12:3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_IMG_SRC='192.168.0.12:3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_FONT_SRC='192.168.0.12:3000',"'unsafe-inline'","'unsafe-eval'"
 create a db postgres user root pass root and a database test2 first
 ```
 ## Run

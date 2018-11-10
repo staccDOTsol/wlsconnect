@@ -11,6 +11,7 @@ import { getAccountCreationFee } from '../../utils/auth';
 import { getErrorMessage } from '../../../helpers/operation';
 import Loading from '../../widgets/Loading';
 import { sleep } from '../../../helpers/utils';
+steem.config.set('address_prefix','WLS');
 
 class CreateApp extends React.Component {
   static propTypes = {
@@ -46,15 +47,28 @@ class CreateApp extends React.Component {
     const { intl } = this.props;
     this.hideModal();
     this.setState({ isLoading: true });
-    const clientId = this.state.values.username;
+    const clientId = this.state.values.name;
+    console.log('clientId')
+    console.log(clientId)
     const accountCreationFee = await getAccountCreationFee();
 
     /** Generate account authorities */
     const publicKeys = config.offline_generated_public_keys;
+
     const owner = { weight_threshold: 1, account_auths: [['steemconnect', 1]], key_auths: [[publicKeys.owner, 1]] };
     const active = { weight_threshold: 1, account_auths: [['steemconnect', 1]], key_auths: [[publicKeys.active, 1]] };
     const posting = { weight_threshold: 1, account_auths: [['steemconnect', 1]], key_auths: [[publicKeys.posting, 1]] };
-
+    
+    console.log({
+        fee: accountCreationFee,
+        creator: auth.username,
+        new_account_name: clientId,
+        owner,
+        active,
+        posting,
+        memo_key: publicKeys.memo,
+        json_metadata: JSON.stringify({ owner: this.props.auth.user.name }),
+      })
     const operations = [[
       'account_create', {
         fee: accountCreationFee,
@@ -95,17 +109,19 @@ class CreateApp extends React.Component {
                 });
               } else {
                 this.setState({ isLoading: false });
+                console.log(data.error)
                 notification.error({
                   message: intl.formatMessage({ id: 'error' }),
-                  description: data.error || intl.formatMessage({ id: 'general_error' }),
+                  description: data.error ,
                 });
               }
             });
         } else {
           this.setState({ isLoading: false });
+          console.log(err);
           notification.error({
             message: intl.formatMessage({ id: 'error' }),
-            description: getErrorMessage(err) || intl.formatMessage({ id: 'general_error' }),
+            description: getErrorMessage(err) ,
           });
         }
       });

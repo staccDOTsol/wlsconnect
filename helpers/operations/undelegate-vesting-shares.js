@@ -10,7 +10,7 @@ const parse = async (query) => {
 
   cQuery.delegatee = normalizeUsername(cQuery.delegatee);
   cQuery.delegator = normalizeUsername(cQuery.delegator);
-  cQuery.vesting_shares = join([parseFloat(0).toFixed(6), 'VESTS'], ' ');
+  cQuery.vesting_shares = join([parseFloat(0).toFixed(6), 'WHALESTAKE'], ' ');
 
   return cQuery;
 };

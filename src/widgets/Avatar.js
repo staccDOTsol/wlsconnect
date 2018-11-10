@@ -13,7 +13,7 @@ const Avatar = ({
   } else if (icon) {
     src = `https://steemitimages.com/${size}x${size}/${icon}`;
   } else {
-    src = `https://img.35.236.1.148:3000/@steemconnect?s=${size}`;
+    src = `https://img.192.168.0.12:3000/@steemconnect?s=${size}`;
   }
   return (
     <span
