@@ -4,7 +4,7 @@ steem.api.setOptions({ url: 'ws://188.166.99.136:8090/' });
 const isEmpty = value => value === undefined || value === null || value === '';
 
 const allowedSymbols = [
-  { symbol: 'SBD', precision: 3 },
+  { symbol: 'WLS', precision: 3 },
   { symbol: 'WLS', precision: 3 },
   { symbol: 'SP', precision: 3 },
   { symbol: 'WHALESTAKE', precision: 6 },

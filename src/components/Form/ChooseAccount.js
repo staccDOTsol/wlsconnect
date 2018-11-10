@@ -2,7 +2,7 @@
 import React, { Component, PropTypes } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Button, Icon } from 'antd';
-import WhaleSharesitAvatar from '../../widgets/SteemitAvatar';
+import SteemitAvatar from '../../widgets/SteemitAvatar';
 import { getAccounts } from '../../utils/localStorage';
 import './ChooseAccount.less';
 
@@ -50,7 +50,7 @@ export default class ChooseAccount extends Component {
           {accounts.map(account =>
             <li key={`acc_${account.username}`}>
               <a href={undefined} onClick={() => this.changeAccount(account.username)}>
-                <WhaleSharesitAvatar username={account.username} size="50" /><span className="username">{account.username}</span>
+                <SteemitAvatar username={account.username} size="50" /><span className="username">{account.username}</span>
               </a>
               <Icon type="close" onClick={() => this.removeAccount(account.username)} />
             </li>

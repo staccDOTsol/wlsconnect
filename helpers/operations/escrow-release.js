@@ -54,7 +54,7 @@ const validate = async (query, errors) => {
     errors.push({ field: 'escrow_id', error: 'error_integer_format' });
   }
 
-  if (!isEmpty(query.sbd_amount) && query.sbd_amount.split(' ')[1] !== 'SBD') {
+  if (!isEmpty(query.sbd_amount) && query.sbd_amount.split(' ')[1] !== 'WLS') {
     errors.push({ field: 'sbd_amount', error: 'error_amount_symbol' });
   } else if (!isEmpty(query.sbd_amount) && !isAsset(query.sbd_amount)) {
     errors.push({ field: 'sbd_amount', error: 'error_amount_format' });

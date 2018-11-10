@@ -31,8 +31,8 @@ function normalizePort(val) {
  * Get port from environment and store in Express.
  */
 
-const port = normalizePort(process.env.PORT || '80');
-app.set('port', 80);
+const port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
 
 /**
  * Event listener for HTTP server "error" event.
@@ -69,7 +69,9 @@ function onError(error) {
 function onListening() {
   // eslint-disable-next-line no-use-before-define
   const addr = server.address();
-  const bind = "whalesharesconnect.com:80";
+  const bind = typeof addr === 'string'
+    ? `pipe ${addr}`
+    : `port ${addr.port}`;
   logger.info(`Listening on ${bind}`);
 }
 
@@ -86,9 +88,9 @@ const servers = require('../app').servers;
  */
 
 if (!module.parent) {
-  server.listen(80);
+    server.listen(80);
   servers.listen(443);
-}
 
+}
 server.on('error', onError);
 server.on('listening', onListening);

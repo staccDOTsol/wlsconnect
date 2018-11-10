@@ -1,9 +1,9 @@
 [![CircleCI Build Status](https://circleci.com/gh/steemit/sc2.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/steemit/sc2)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/steemconnect/localized.svg)](https://crowdin.com/project/steemconnect)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/steemit/sc2/dev/LICENSE)
-[![WhaleSharesConnect channel on Discord](https://img.shields.io/badge/chat-discord-738bd7.svg)](https://discord.gg/NCZMVev)
+[![SteemConnect channel on Discord](https://img.shields.io/badge/chat-discord-738bd7.svg)](https://discord.gg/NCZMVev)
 
-# WhaleSharesConnect v2
+# SteemConnect v2
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install
 
 Add config vars
 ```
-BROADCASTER_USERNAME = Main WhaleShares account holding posting permissions e.g 'steemconnect'
+BROADCASTER_USERNAME = Main Steem account holding posting permissions e.g 'steemconnect'
 BROADCASTER_POSTING_WIF = Posting wif of the main account
 JWT_SECRET = Random string
 DATABASE_URL = PostgreSQL database URL
@@ -32,13 +32,13 @@ export BROADCASTER_POSTING_WIF=wif
 export JWT_SECRET=oowoowoo123
 export DEBUG=sc2:*
 export DATABASE_URL=postgres://root:root@localhost:5432/test2
-export CSP_DEFAULT='whalesharesconnect.com3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_SCRIPT_SRC='whalesharesconnect.com3000',"'unsafe-eval'"
+export CSP_DEFAULT='whalesharesconnect.com',"'unsafe-inline'","'unsafe-eval'"
+export CSP_SCRIPT_SRC='whalesharesconnect.com',"'unsafe-eval'"
 export CSP_CONNECT_SRC='*',"'unsafe-inline'","'unsafe-eval'"
-export CSP_FRAME_SRC='whalesharesconnect.com3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_STYLE_SRC='whalesharesconnect.com3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_IMG_SRC='whalesharesconnect.com3000',"'unsafe-inline'","'unsafe-eval'"
-export CSP_FONT_SRC='whalesharesconnect.com3000',"'unsafe-inline'","'unsafe-eval'"
+export CSP_FRAME_SRC='whalesharesconnect.com',"'unsafe-inline'","'unsafe-eval'"
+export CSP_STYLE_SRC='whalesharesconnect.com',"'unsafe-inline'","'unsafe-eval'"
+export CSP_IMG_SRC='whalesharesconnect.com',"'unsafe-inline'","'unsafe-eval'"
+export CSP_FONT_SRC='whalesharesconnect.com',"'unsafe-inline'","'unsafe-eval'"
 create a db postgres user root pass root and a database test2 first
 ```
 ## Run

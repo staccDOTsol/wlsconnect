@@ -35,7 +35,7 @@ const validate = async (query, errors) => {
     errors.push({ field: 'agent', error: 'error_user_exist', values: { user: query.agent } });
   }
 
-  if (!isEmpty(query.sbd_amount) && query.sbd_amount.split(' ')[1] !== 'SBD') {
+  if (!isEmpty(query.sbd_amount) && query.sbd_amount.split(' ')[1] !== 'WLS') {
     errors.push({ field: 'sbd_amount', error: 'error_amount_symbol' });
   } else if (!isEmpty(query.sbd_amount) && !isAsset(query.sbd_amount)) {
     errors.push({ field: 'sbd_amount', error: 'error_amount_format' });
@@ -47,7 +47,7 @@ const validate = async (query, errors) => {
     errors.push({ field: 'steem_amount', error: 'error_amount_format' });
   }
 
-  if (!isEmpty(query.fee) && !['WLS', 'SBD'].includes(query.fee.split(' ')[1])) {
+  if (!isEmpty(query.fee) && !['WLS', 'WLS'].includes(query.fee.split(' ')[1])) {
     errors.push({ field: 'fee', error: 'error_amount_symbol' });
   } else if (!isEmpty(query.fee) && !isAsset(query.fee)) {
     errors.push({ field: 'fee', error: 'error_amount_format' });

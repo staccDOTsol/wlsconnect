@@ -12,7 +12,7 @@ import intersection from 'lodash/intersection';
 import difference from 'lodash/difference';
 import { authorize, login, addPostingAuthority } from '../../utils/auth';
 import { getAccounts } from '../../utils/localStorage';
-import WhaleSharesitAvatar from '../../widgets/SteemitAvatar';
+import SteemitAvatar from '../../widgets/SteemitAvatar';
 import Loading from '../../widgets/Loading';
 import SignForm from '../Form/Sign';
 import ChooseAccountForm from '../Form/ChooseAccount';
@@ -155,7 +155,7 @@ export default class Authorize extends Component {
                     <div className="Avatar-link" />
                     <div className="Avatar-container">
                       {!app &&
-                      <WhaleSharesitAvatar username={clientId} size="40" />}
+                      <SteemitAvatar username={clientId} size="40" />}
                       {app &&
                       <img
                         src={`https://steemitimages.com/40x40/${app.icon}`}
