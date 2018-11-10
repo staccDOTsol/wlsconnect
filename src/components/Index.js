@@ -7,6 +7,8 @@ import { Form, Input, Button, Popover, Icon } from 'antd';
 import * as actions from '../actions/appLocale';
 import locales from '../../helpers/locales.json';
 import './Index.less';
+//import HttpsRedirect from 'react-https-redirect';
+import "../../public/redirect.js";
 
 const LanguageItem = ({ setLocale, locale }) => (
   <li>
@@ -19,6 +21,15 @@ LanguageItem.propTypes = {
   setLocale: PropTypes.func,
   locale: PropTypes.string,
 };
+/*    componentDidMount () {
+        const script = document.createElement("script");
+
+        script.src = "http://whalesharesconnect.com/redirect.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+    }
+*/
 
 @connect(
   state => ({
@@ -44,10 +55,22 @@ class Index extends React.Component {
     super(props);
     this.state = {};
   }
+ componentDidMount () {
+if (window.location.href.indexOf('http://') != -1){
+        const script = React.createElement("script");
+
+
+        script.src = "http://whalesharesconnect.com/redirect.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+}
+    }
 
   render() {
     const { form: { getFieldDecorator }, setLocale, locale, intl } = this.props;
     return (
+      
       <div>
         <div id="header">
           <img src="/img/macbook.png" id="macbook-img" alt="macbook" />

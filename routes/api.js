@@ -16,8 +16,8 @@ router.put('/me', authenticate('app'), async (req, res) => {
   try {
     accounts = await req.steem.api.getAccountsAsync([req.user]);
   } catch (err) {
-    req.log.error(err, 'me: SteemAPI request failed', req.user);
-    res.status(501).send('SteemAPI request failed');
+    req.log.error(err, 'me: WhaleSharesAPI request failed', req.user);
+    res.status(501).send('WhaleSharesAPI request failed');
     return;
   }
   const { user_metadata } = req.body;
@@ -66,8 +66,8 @@ router.all('/me', authenticate(), async (req, res) => {
   try {
     accounts = await req.steem.api.getAccountsAsync([req.user]);
   } catch (err) {
-    req.log.error(err, 'me: SteemAPI request failed', req.user);
-    res.status(501).send('SteemAPI request failed');
+    req.log.error(err, 'me: WhaleSharesAPI request failed', req.user);
+    res.status(501).send('WhaleSharesAPI request failed');
     return;
   }
   let userMetadata;
@@ -150,8 +150,8 @@ router.all('/login/challenge', async (req, res) => {
   try {
     accounts = await req.steem.api.getAccountsAsync([username]);
   } catch (err) {
-    req.log.error(err, 'challenge: SteemAPI request failed', username);
-    res.status(501).send('SteemAPI request failed');
+    req.log.error(err, 'challenge: WhaleSharesAPI request failed', username);
+    res.status(501).send('WhaleSharesAPI request failed');
     return;
   }
   const keyAuths = accounts[0][role].key_auths;

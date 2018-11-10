@@ -68,7 +68,7 @@ Operation.propTypes = {
   operation: PropTypes.shape(),
 };
 
-const Steemjs = () =>
+const WhaleSharesjs = () =>
   <div className="container my-5">
     <h1><FormattedMessage id="steemjs" /></h1>
     <p>
@@ -93,4 +93,4 @@ const Steemjs = () =>
   </div>
 ;
 
-export default Steemjs;
+export default WhaleSharesjs;

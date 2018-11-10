@@ -22,13 +22,19 @@ if (process.env.WLSD_URL_SERVER) {
 http.globalAgent.maxSockets = Infinity;
 https.globalAgent.maxSockets = Infinity;
 var fs = require('fs');
-var privateKey  = fs.readFileSync('./key.pem', 'utf8');
-var certificate = fs.readFileSync('./cert.pem', 'utf8');
+var privateKey  = fs.readFileSync('./pem.key', 'utf8');
+var certificate = fs.readFileSync('./pem.cert', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 
 const app = express();
 var server = http.createServer(app);
 var servers = https.createServer(credentials, app);
+/* server.get('*', function(req, res) {  
+    res.redirect('https://' + req.headers.host + req.url);
+
+    // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
+    // res.redirect('https://example.com' + req.url);
+}) */
 
 
 // iframe header
@@ -40,13 +46,13 @@ app.use((req, res, next) => {
 // Content security policies
 app.use(csp({
   policies: {
-    'default-src': (process.env.CSP_DEFAULT || "'192.168.0.12:3000'").split(','),
-    'script-src': (process.env.CSP_SCRIPT_SRC || "'192.168.0.12:3000','unsafe-eval','unsafe-inline'").split(','),
-    'connect-src': (process.env.CSP_CONNECT_SRC || "'192.168.0.12:3000'").split(','),
-    'frame-src': (process.env.CSP_FRAME_SRC || "'192.168.0.12:3000'").split(','),
-    'style-src': (process.env.CSP_STYLE_SRC || "'192.168.0.12:3000'").split(','),
-    'img-src': (process.env.CSP_IMG_SRC || "'192.168.0.12:3000'").split(','),
-    'font-src': (process.env.CSP_FONT_SRC || "'192.168.0.12:3000'").split(','),
+    'default-src': (process.env.CSP_DEFAULT || "'whalesharesconnect.com3000'").split(','),
+    'script-src': (process.env.CSP_SCRIPT_SRC || "'whalesharesconnect.com3000','unsafe-eval','unsafe-inline'").split(','),
+    'connect-src': (process.env.CSP_CONNECT_SRC || "'whalesharesconnect.com3000'").split(','),
+    'frame-src': (process.env.CSP_FRAME_SRC || "'whalesharesconnect.com3000'").split(','),
+    'style-src': (process.env.CSP_STYLE_SRC || "'whalesharesconnect.com3000'").split(','),
+    'img-src': (process.env.CSP_IMG_SRC || "'whalesharesconnect.com3000'").split(','),
+    'font-src': (process.env.CSP_FONT_SRC || "'whalesharesconnect.com3000'").split(','),
   },
 }));
 

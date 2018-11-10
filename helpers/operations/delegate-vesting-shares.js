@@ -74,7 +74,7 @@ const normalize = async (query) => {
     const globalProps = await steem.api.getDynamicGlobalPropertiesAsync();
     cQuery.amount = join(
       [
-        formatter.vestToSteem(
+        formatter.vestToWhaleShares(
           cQuery.vesting_shares,
           globalProps.total_vesting_shares,
           globalProps.total_vesting_fund_steem
