@@ -63,7 +63,7 @@
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
     "local-storage": "^1.4.2",
-    "lodash": "^4.0.0",
+    "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.10.6",
     "moment": "^2.22.1",
     "morgan": "^1.9.0",
