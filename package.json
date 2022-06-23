@@ -107,7 +107,7 @@
     "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.2.1",
-    "jsdom": "^9.5.0",
+    "jsdom": "^16.5.0",
     "mocha": "^3.0.2",
     "mocha-make-stub": "^2.3.2",
     "nsp": "^2.7.0",
