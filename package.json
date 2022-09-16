@@ -39,7 +39,7 @@
     "babel-runtime": "^6.18.0",
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.2",
-    "bootstrap": "^4.0.0-alpha.2",
+    "bootstrap": "^4.3.1",
     "bunyan": "1.8.12",
     "change-case": "^2.3.1",
     "cors": "^2.8.3",
